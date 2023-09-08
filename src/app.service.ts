@@ -3,7 +3,9 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): string {
-    const data = 'toi la da ta ne';
+    const a = 1;
+    const b = 2;
+    const data = a > b ? 'hiihi' : 'huhu';
     return data;
   }
 }
